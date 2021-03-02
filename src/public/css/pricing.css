@@ -1,0 +1,237 @@
+.comparison {
+  margin: 0 auto;
+  text-align: center;
+}
+.comparison table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  border-bottom: 1px solid #36364e;
+}
+.comparison td,
+.comparison th {
+  border-right: 1px solid #36364e;
+  border-left: 1px solid #36364e;
+  empty-cells: show;
+  padding: 16px;
+}
+.compare-heading {
+  font-size: 24px;
+  border-bottom: 0 !important;
+  padding-top: 10px !important;
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+.comparison tbody tr:nth-child(odd) {
+  display: none;
+}
+.comparison .tickblue {
+  color: #35bb9a;
+}
+.comparison .tickgreen {
+  color: #009e2c;
+}
+.comparison th {
+  padding: 0;
+  border-bottom: 1px solid #070916;
+}
+.comparison tr td:first-child {
+  text-align: left;
+}
+.comparison .qbse,
+.comparison .qbo,
+.comparison .tl {
+  color: #070916;
+  padding: 16px;
+  font-size: 14px;
+  border-right: 1px solid #36364e;
+  border-bottom: 0;
+}
+.comparison .tl2 {
+  border-right: 0;
+}
+.comparison .qbse {
+  background: #070916;
+  border-top-left-radius: 3px;
+  border-bottom: 1px solid #36364e;
+  border-left: 0px;
+  border-right: 0px;
+}
+.comparison .qbo {
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #36364e;
+  background: #36364e;
+  border-right: 0px;
+  font-size: 16px;
+  color: white;
+}
+.comparison .price-info {
+  padding: 5px 15px 24px 15px;
+}
+.comparison .price-was {
+  color: #999;
+  text-decoration: line-through;
+}
+.comparison .price-now,
+.comparison .price-now span {
+  color: #ff1343;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.comparison .price-now span {
+  font-size: 64px;
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.comparison .price-small {
+  font-size: 24px !important;
+  position: relative;
+  top: -30px;
+  left: 2px;
+}
+.comparison .price-buy {
+  background: #ff5406;
+  padding: 10px 20px;
+  font-size: 12px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  margin: 5px 0 10px 0;
+}
+.comparison .none {
+  border-left: none;
+}
+.comparison .border-top {
+  border-top: 1px solid #36364e !important;
+}
+@media (max-width: 767px) {
+  .comparison td:first-child,
+  .comparison th:first-child {
+    display: none;
+  }
+  .comparison tbody tr:nth-child(odd) {
+    display: table-row;
+    background: #070916;
+  }
+  .comparison .row {
+    background: #fff;
+  }
+  .comparison td,
+  .comparison th {
+    border: 1px solid #36364e;
+  }
+  .price-info {
+    border-top: 0 !important;
+  }
+}
+@media (max-width: 639px) {
+  .comparison .price-buy {
+    padding: 5px 10px;
+  }
+  .comparison td,
+  .comparison th {
+    padding: 10px 5px;
+  }
+  .comparison .price-now span {
+    font-size: 32px;
+  }
+  .comparison .price-small {
+    font-size: 16px !important;
+    top: 0;
+    left: 0;
+  }
+  .comparison .qbse,
+  .comparison .qbo {
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+  .comparison .price-buy {
+    margin-top: 10px;
+  }
+  .compare-heading {
+    font-size: 13px;
+  }
+}
+
+.btn-stripe-checkout {
+  padding: 1.5rem 2rem 1.5rem 2rem !important;
+  text-transform: uppercase !important;
+  color: white !important;
+  border-radius: 0px !important;
+  background: #35bb9a !important;
+  border: 1px solid #35bb9a !important;
+}
+
+.f-padding-x-large {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.f-padding-y {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.between-xs {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.bottom-xs {
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.f-top-intersection {
+  margin-top: 20px;
+}
+
+.f-padding-bottom-small {
+  padding-bottom: 20px;
+}
+
+.f-border-bottom {
+  border-bottom: 1px solid currentColor;
+}
+
+.no-margin:not(.row) {
+  margin: 0!important;
+}
+
+.bold, .cf-button {
+  font-weight: 700!important;
+}
+
+.normal-line-height {
+  line-height: 1.5em;
+}
+
+.normal-svg.right-space {
+  margin-right: .3em;
+}
+
+.normal-svg {
+  height: 1.2em;
+  vertical-align: middle;
+}
+
+.emoji-menu, svg:not(:root) {
+  overflow: hidden;
+}
+
+.normal-svg svg {
+  height: 100%;
+  max-width: none;
+}
+
+.stroke-svg svg {
+  fill: none;
+}
